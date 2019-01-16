@@ -265,6 +265,16 @@ main .content-info .tec-skills .skill .tap {
   color: #eece1a;
 }
 
+main .bio-link {
+  color: #eece1a;
+  text-decoration: none;
+}
+
+main .bio-link:hover {
+  color: #eece1a;
+  text-decoration: underline;
+}
+
 /* line 250, D:/Our_Project/YPositiv.github.io/list/scss/resume.scss */
 .foot {
   max-width: 1000px;
