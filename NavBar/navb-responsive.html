@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Responsive NavBar</title>
+    <link rel="stylesheet" href="css/navb-responsive.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <nav>
+                <div class="menu-icon">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <div class="logo">
+                    YPositiv
+                </div>
+                <div class="menu">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">about</a></li>
+                        <li><a href="#">blog</a></li>
+                        <li><a href="#">contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+    
+        <div class="content">
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, enim consequuntur hic iste pariatur culpa ea possimus eveniet, impedit commodi ab accusamus voluptate velit quidem! Quisquam vero ipsam dolorum veniam.
+                Delectus, commodi similique laborum adipisci expedita, placeat magni illo corrupti recusandae, labore sunt voluptatibus! Odio similique ab ducimus ex fuga. Dolorem, odio! Ex ducimus dolor atque, adipisci voluptatum quia quibusdam.
+                Quos quisquam ducimus ipsam ad eius quasi, rem expedita culpa hic commodi, consectetur in voluptate minus perspiciatis pariatur nihil eligendi ipsum vero asperiores dolores. Accusantium sed quibusdam voluptatibus possimus laboriosam.
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, enim consequuntur hic iste pariatur culpa ea possimus eveniet, impedit commodi ab accusamus voluptate velit quidem! Quisquam vero ipsam dolorum veniam.
+                Delectus, commodi similique laborum adipisci expedita, placeat magni illo corrupti recusandae, labore sunt voluptatibus! Odio similique ab ducimus ex fuga. Dolorem, odio! Ex ducimus dolor atque, adipisci voluptatum quia quibusdam.
+                Quos quisquam ducimus ipsam ad eius quasi, rem expedita culpa hic commodi, consectetur in voluptate minus perspiciatis pariatur nihil eligendi ipsum vero asperiores dolores. Accusantium sed quibusdam voluptatibus possimus laboriosam.
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, enim consequuntur hic iste pariatur culpa ea possimus eveniet, impedit commodi ab accusamus voluptate velit quidem! Quisquam vero ipsam dolorum veniam.
+                Delectus, commodi similique laborum adipisci expedita, placeat magni illo corrupti recusandae, labore sunt voluptatibus! Odio similique ab ducimus ex fuga. Dolorem, odio! Ex ducimus dolor atque, adipisci voluptatum quia quibusdam.
+                Quos quisquam ducimus ipsam ad eius quasi, rem expedita culpa hic commodi, consectetur in voluptate minus perspiciatis pariatur nihil eligendi ipsum vero asperiores dolores. Accusantium sed quibusdam voluptatibus possimus laboriosam.
+            </p>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+    
+    // menu BTN$
+    $(document).ready(function() {
+        $(".menu-icon").on("click", function() {
+            $("nav ul").toggleClass("showing");
+        })
+    })
+
+    $(window).on("scroll", function() {
+        if($(window).scrollTop()) {
+            $('nav').addClass('black');
+        }
+        else {
+            $('nav').removeClass('black');
+        }
+    })
+
+
+    </script>
+</body>
+</html>

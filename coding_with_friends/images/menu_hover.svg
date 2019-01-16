@@ -1,0 +1,13 @@
+<svg width="235" height="70" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <path transform="translate(0.0000152588 0)" d="M216,58L234,58A1,1 0 0 1 234,60L216,60A1,1 0 0 1 216,58zM216,68L234,68A1,1 0 0 1 234,70L216,70A1,1 0 0 1 216,68zM216,63L234,63A1,1 0 0 1 234,65L216,65A1,1 0 0 1 216,63z" id="imagebot_1"/>
+ </defs>
+ <g>
+  <title>Layer 1</title>
+  <g transform="translate(161.783 7.91304) matrix(4.6827 0 0 4.19004 -98.7826 0)" id="imagebot_2">
+   <g id="imagebot_3" transform="translate(-215 -58)">
+    <use id="imagebot_4" xlink:href="#imagebot_1" fill="#267df4"/>
+   </g>
+  </g>
+ </g>
+</svg>

@@ -1,0 +1,29 @@
+$main-color: #f3f4f9;
+$sub-color: #ffffff;
+$border-color: #404040;
+$txt-main-color: #000000;
+$txt-sub-color: #545456;
+$txt-link: #2c78a5;
+
+$txt-size-h: 48px;
+$txt-size-p: 24px;
+$txt-size-medium: 36px;
+
+@mixin easeOut {
+    transition: all 0.5s ease-out;
+}
+
+@font-face {
+    // English
+    font-family: 'Varela Round', sans-serif;
+    src: url("https://fonts.googleapis.com/css?family=Varela+Round");
+
+    // Russian 
+    font-family: 'Neucha', cursive;
+    src: url("https://fonts.googleapis.com/css?family=Neucha&amp;subset=cyrillic");
+}
+
+body {
+    margin: 0;
+}
+

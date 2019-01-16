@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "../scss/config.css",
+	"sources": [
+		"../scss/config.scss"
+	],
+	"sourcesContent": [
+		"$main-color: #f3f4f9;\r\n$sub-color: #ffffff;\r\n$border-color: #404040;\r\n$txt-main-color: #000000;\r\n$txt-sub-color: #545456;\r\n$txt-link: #2c78a5;\r\n\r\n$txt-size-h: 48px;\r\n$txt-size-p: 24px;\r\n$txt-size-medium: 36px;\r\n\r\n@mixin easeOut {\r\n    transition: all 0.5s ease-out;\r\n}\r\n\r\n@font-face {\r\n    // English\r\n    font-family: 'Varela Round', sans-serif;\r\n    src: url(\"https://fonts.googleapis.com/css?family=Varela+Round\");\r\n\r\n    // Russian \r\n    font-family: 'Neucha', cursive;\r\n    src: url(\"https://fonts.googleapis.com/css?family=Neucha&amp;subset=cyrillic\");\r\n}\r\n\r\nbody {\r\n    margin: 0;\r\n}\r\n\r\n"
+	],
+	"mappings": "AAeA,UAAU;EAEN,WAAW,EAAE,0BAA2B;EACxC,GAAG,EAAE,2DAAG;EAGR,WAAW,EAAE,iBAAkB;EAC/B,GAAG,EAAE,yEAAG;;;;AAGZ,AAAA,IAAI,CAAC;EACD,MAAM,EAAE,CAAE;CACb",
+	"names": []
+}
