@@ -36,7 +36,8 @@ header {
   justify-content: left;
   align-items: center;
   flex-direction: column;
-  margin-left: 75px;
+  margin-left: 3%;
+  padding-top: 10%;
 }
 
 /* line 40, ../Projects/Porto/YPositiv.github.io/TZ/scss/navb-responsive.scss */
@@ -45,7 +46,6 @@ header {
   padding: 0;
   font-size: 48px;
   color: #fff;
-  width: 50%;
 }
 
 /* line 48, ../Projects/Porto/YPositiv.github.io/TZ/scss/navb-responsive.scss */
@@ -54,7 +54,6 @@ header {
   padding: 0;
   font-size: 18px;
   color: #fff;
-  width: 30%;
 }
 
 /* line 56, ../Projects/Porto/YPositiv.github.io/TZ/scss/navb-responsive.scss */
@@ -80,7 +79,7 @@ footer {
   justify-content: space-between;
   background-color: #1F1E1E;
   align-items: center;
-  padding: 10px 70px 0px 75px;
+  padding: 10px 3% 0px 3%;
 }
 
 /* line 85, ../Projects/Porto/YPositiv.github.io/TZ/scss/navb-responsive.scss */
@@ -114,7 +113,7 @@ footer .pho .num {
 .logo {
   position: fixed;
   float: left;
-  margin: 16px 0 0 75px;
+  margin: 16px 0 0 3%;
   color: #fff;
   font-weight: bold;
   font-size: 24px;

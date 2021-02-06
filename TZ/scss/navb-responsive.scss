@@ -34,15 +34,15 @@ header {
       justify-content: left;
       align-items: center;
       flex-direction: column;
-      margin-left: 75px;
-      
+      margin-left: 3%;
+      padding-top: 10%;
 
       h3 {
         margin: 0;
         padding: 0;
         font-size: 48px;
         color: #fff;
-        width: 50%;
+        // width: 50%;
       }
 
       p {
@@ -50,7 +50,7 @@ header {
         padding: 0;
         font-size: 18px;
         color: #fff;
-        width: 30%;
+        // width: 30%;
       }
 
       .callback {
@@ -79,7 +79,7 @@ footer {
   background-color: #1F1E1E;
   align-items: center;
   // width: 90%;
-  padding: 10px 70px 0px 75px;
+  padding: 10px 3% 0px 3%;
 
 
   .logo-foot {
@@ -115,7 +115,7 @@ footer {
     position: fixed;
     float: left;
     // margin: 16px 36px;
-    margin: 16px 0 0 75px;
+    margin: 16px 0 0 3%;
     color: #fff;
     font-weight: bold;
     font-size: 24px;
