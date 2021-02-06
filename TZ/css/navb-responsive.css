@@ -1,0 +1,222 @@
+@font-face {
+  font-family: 'Kodchasan', sans-serif;
+  src: url(href= "https://fonts.googleapis.com/css?family=Kodchasan:400,700");
+}
+
+/* line 6, ../Projects/Porto/YPositiv.github.io/TZ/scss/navb-responsive.scss */
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+/* line 12, ../Projects/Porto/YPositiv.github.io/TZ/scss/navb-responsive.scss */
+body {
+  font-family: 'Kodchasan', sans-serif;
+}
+
+/* line 16, ../Projects/Porto/YPositiv.github.io/TZ/scss/navb-responsive.scss */
+header {
+  width: 100%;
+}
+
+/* line 23, ../Projects/Porto/YPositiv.github.io/TZ/scss/navb-responsive.scss */
+.top-mid {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)), url(../img/dog.png) no-repeat 50% 50%;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+/* line 32, ../Projects/Porto/YPositiv.github.io/TZ/scss/navb-responsive.scss */
+.top-mid .info {
+  justify-content: left;
+  align-items: center;
+  flex-direction: column;
+  margin-left: 75px;
+}
+
+/* line 40, ../Projects/Porto/YPositiv.github.io/TZ/scss/navb-responsive.scss */
+.top-mid .info h3 {
+  margin: 0;
+  padding: 0;
+  font-size: 48px;
+  color: #fff;
+  width: 50%;
+}
+
+/* line 48, ../Projects/Porto/YPositiv.github.io/TZ/scss/navb-responsive.scss */
+.top-mid .info p {
+  margin: 0 0 24px 0;
+  padding: 0;
+  font-size: 18px;
+  color: #fff;
+  width: 30%;
+}
+
+/* line 56, ../Projects/Porto/YPositiv.github.io/TZ/scss/navb-responsive.scss */
+.top-mid .info .callback {
+  color: #fff;
+  font-size: 18px;
+  background-color: #FFB000;
+  padding: 12px;
+  border-radius: 20px;
+  text-decoration: none;
+  transition: 0.7s;
+}
+
+/* line 66, ../Projects/Porto/YPositiv.github.io/TZ/scss/navb-responsive.scss */
+.top-mid .info .callback:hover {
+  color: #FFB000;
+  background-color: #fff;
+}
+
+/* line 76, ../Projects/Porto/YPositiv.github.io/TZ/scss/navb-responsive.scss */
+footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #1F1E1E;
+  align-items: center;
+  padding: 10px 70px 0px 75px;
+}
+
+/* line 85, ../Projects/Porto/YPositiv.github.io/TZ/scss/navb-responsive.scss */
+footer .logo-foot {
+  justify-content: center;
+  flex-direction: column;
+  color: #fff;
+}
+
+/* line 92, ../Projects/Porto/YPositiv.github.io/TZ/scss/navb-responsive.scss */
+footer .social-foot a {
+  color: #FFB701;
+  text-decoration: none;
+}
+
+/* line 100, ../Projects/Porto/YPositiv.github.io/TZ/scss/navb-responsive.scss */
+footer .pho .num {
+  color: #fff;
+}
+
+/* line 106, ../Projects/Porto/YPositiv.github.io/TZ/scss/navb-responsive.scss */
+.content {
+  width: 90%;
+  margin: 4em auto;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: justify;
+}
+
+/* line 114, ../Projects/Porto/YPositiv.github.io/TZ/scss/navb-responsive.scss */
+.logo {
+  position: fixed;
+  float: left;
+  margin: 16px 0 0 75px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+/* line 124, ../Projects/Porto/YPositiv.github.io/TZ/scss/navb-responsive.scss */
+nav {
+  position: fixed;
+  width: 100%;
+}
+
+/* line 129, ../Projects/Porto/YPositiv.github.io/TZ/scss/navb-responsive.scss */
+nav ul {
+  list-style: none;
+  background: #fff;
+  overflow: hidden;
+  color: #fff;
+  padding: 0;
+  text-align: right;
+  margin: 0;
+  transition: 1s;
+  text-transform: lowercase;
+  padding-right: 42px;
+}
+
+/* line 143, ../Projects/Porto/YPositiv.github.io/TZ/scss/navb-responsive.scss */
+nav.black ul {
+  background: rgba(77, 77, 77, 0.7);
+}
+
+/* line 149, ../Projects/Porto/YPositiv.github.io/TZ/scss/navb-responsive.scss */
+nav ul li {
+  display: inline-block;
+  padding: 32px;
+  transition: all 0.5s ease-out;
+  margin-top: 4px;
+}
+
+/* line 157, ../Projects/Porto/YPositiv.github.io/TZ/scss/navb-responsive.scss */
+nav ul li .insta {
+  font-weight: 600;
+}
+
+/* line 161, ../Projects/Porto/YPositiv.github.io/TZ/scss/navb-responsive.scss */
+nav ul li:hover {
+  transform: scale(1.1);
+}
+
+/* line 166, ../Projects/Porto/YPositiv.github.io/TZ/scss/navb-responsive.scss */
+nav ul li a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #FFB701;
+}
+
+/* line 179, ../Projects/Porto/YPositiv.github.io/TZ/scss/navb-responsive.scss */
+.menu-icon {
+  width: 100%;
+  background: #fff;
+  text-align: right;
+  box-sizing: border-box;
+  padding: 34px 24px;
+  cursor: pointer;
+  display: none;
+  color: #FFB701;
+}
+
+@media (max-width: 580px) {
+  /* line 194, ../Projects/Porto/YPositiv.github.io/TZ/scss/navb-responsive.scss */
+  .logo {
+    position: fixed;
+    top: 0;
+    margin-top: 9px;
+  }
+  /* line 200, ../Projects/Porto/YPositiv.github.io/TZ/scss/navb-responsive.scss */
+  nav ul {
+    padding: 0;
+    max-height: 0px;
+    background: #fff;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+  }
+  /* line 208, ../Projects/Porto/YPositiv.github.io/TZ/scss/navb-responsive.scss */
+  nav.black ul {
+    background: #fff;
+  }
+  /* line 212, ../Projects/Porto/YPositiv.github.io/TZ/scss/navb-responsive.scss */
+  .showing {
+    max-height: 20em;
+  }
+  /* line 216, ../Projects/Porto/YPositiv.github.io/TZ/scss/navb-responsive.scss */
+  nav ul li {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 24px 0;
+    text-align: center;
+    margin-top: 14px;
+  }
+  /* line 226, ../Projects/Porto/YPositiv.github.io/TZ/scss/navb-responsive.scss */
+  .menu-icon {
+    display: block;
+  }
+}
+
+/*# sourceMappingURL=navb-responsive.css.map */

@@ -1,0 +1,230 @@
+@font-face {
+    font-family: 'Kodchasan', sans-serif;
+    src: url(href="https://fonts.googleapis.com/css?family=Kodchasan:400,700");
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+body {
+    font-family: 'Kodchasan', sans-serif;
+}
+
+header {
+    width: 100%;
+    // height: 100vh;
+    // background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5) ), url(../img/dog.png) no-repeat 50% 50%;
+    // background-size: cover; 
+}
+
+.top-mid {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5) ), url(../img/dog.png) no-repeat 50% 50%;
+    background-size: cover; 
+    display: flex;
+    align-items: center;
+    justify-content: left;
+
+    .info {
+      // display: flex;
+      justify-content: left;
+      align-items: center;
+      flex-direction: column;
+      margin-left: 75px;
+      
+
+      h3 {
+        margin: 0;
+        padding: 0;
+        font-size: 48px;
+        color: #fff;
+        width: 50%;
+      }
+
+      p {
+        margin: 0 0 24px 0;
+        padding: 0;
+        font-size: 18px;
+        color: #fff;
+        width: 30%;
+      }
+
+      .callback {
+        color: #fff;
+        font-size: 18px;
+        background-color: #FFB000;
+        padding: 12px;
+        border-radius: 20px;
+        text-decoration: none;
+
+        transition: 0.7s;
+
+        &:hover {
+          color: #FFB000;
+          background-color: #fff;
+        }
+      }
+
+    }
+}
+
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #1F1E1E;
+  align-items: center;
+  // width: 90%;
+  padding: 10px 70px 0px 75px;
+
+
+  .logo-foot {
+      justify-content: center;
+      flex-direction: column;
+      color: #fff;
+  }
+
+  .social-foot {
+    a {
+      color: #FFB701;
+      text-decoration: none;
+    }
+      
+      
+  }
+  .pho {
+    .num {
+      color: #fff;
+    }
+}
+}
+
+.content {
+    width: 90%;
+    margin: 4em auto;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: justify;
+}
+
+.logo {
+    position: fixed;
+    float: left;
+    // margin: 16px 36px;
+    margin: 16px 0 0 75px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+}
+
+nav ul {
+    list-style: none;
+    // background: rgba(0, 0, 0, 0);
+    background: #fff;
+    overflow: hidden;
+    color: #fff;
+    padding: 0;
+    text-align: right;
+    margin: 0;
+    transition: 1s;
+    text-transform: lowercase;
+    padding-right: 42px;
+}
+
+nav.black ul {
+    background: rgba(77, 77, 77, 0.7);
+
+    
+}
+
+nav ul li {
+    display: inline-block;
+    // padding: 20px;
+    padding: 32px;
+    transition: all 0.5s ease-out;
+    // margin-top: 14px;    
+    margin-top: 4px;
+
+    .insta {
+      font-weight: 600;
+    }
+
+    &:hover {
+        transform: scale(1.1);
+    }
+}
+
+nav ul li a {
+    text-decoration: none;
+    
+    font-size: 18px;
+    color: #FFB701;
+
+// НАДО ФИКСАНУТЬ
+    
+// .pho {
+    //   color: #000;
+    // }
+}
+
+.menu-icon {
+    width: 100%;
+    background: #fff;
+    text-align: right;
+    box-sizing: border-box;
+    padding: 34px 24px;
+    cursor: pointer;
+    // color: #000; 
+    display: none;
+    color: #FFB701;
+}
+
+
+
+@media(max-width: 580px) {
+  .logo {
+    position: fixed;
+    top: 0;
+    margin-top: 9px;
+  }  
+
+  nav ul {
+    padding: 0;
+    max-height: 0px;
+    background: #fff;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px; 
+  }
+
+  nav.black ul {
+    background: #fff;
+  }
+
+  .showing {
+    max-height: 20em;
+  }
+
+  nav ul li {
+    
+    box-sizing: border-box;
+    width: 100%;
+    padding: 24px 0;
+    text-align: center;
+    margin-top: 14px;
+ 
+  }
+
+  .menu-icon {
+    display: block;
+  }
+
+}
